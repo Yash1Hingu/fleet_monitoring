@@ -1,0 +1,54 @@
+# Virtual environment
+venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDEs and editors (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Environment configuration files
+.env
+*.env
+
+# Python distribution files
+*.egg-info/
+dist/
+build/
+
+# Logs and runtime files
+*.log
+*.pot
+*.pyc
+
+# SQLite database files (if used)
+*.sqlite3
+
+# Test result files
+coverage/
+nosetests.xml
+*.cover
+*.hypothesis/
+
+# Dependency and environment manager files (e.g., for pipenv, conda)
+Pipfile.lock
+poetry.lock
+
+# MacOS system files (if working on a Mac)
+.DS_Store
+
+# Windows system files (if working on Windows)
+Thumbs.db
+Desktop.ini
+
+# Deployment files (optional, if you're deploying in a specific environment)
+docker-compose.yml
+*.pem
+*.key
+*.crt
+
+# Specific to Python packages, you can exclude `.tox` if used:
+tox.ini
